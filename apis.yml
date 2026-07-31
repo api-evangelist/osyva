@@ -1,7 +1,27 @@
 aid: osyva
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/osyva.png
 name: Osyva
-description: Osyva is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Osyva is a B2B commerce and procurement platform for the veterinary supply
+  sector in Colombia and Latin America ("Gestiona tus compras veterinarias"),
+  connecting veterinary clinics, distributors, and buyers to manage the ordering
+  and purchasing of veterinary products and pharmaceuticals. Backed by 500
+  Global, Osyva runs a web and mobile application (osyva.com, osyva2go.com) and
+  the related Hubu brand (hubu.com.co). Its platform is powered by internal API
+  hosts (api.osyva.com, api.osyva2go.com), but as of this profile it publishes
+  no public developer portal, documentation, or API specification, so its API
+  surface is private.
 url: https://raw.githubusercontent.com/api-evangelist/osyva/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Veterinary
+- B2B Commerce
+- Procurement
+- E-Commerce
+- Distribution
+- Agtech
+- Latin America
+- Colombia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/osyva-domain-security.yml
 - type: Website
   url: https://osyva.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
