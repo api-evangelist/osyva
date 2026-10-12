@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/osyva/integrations
+- https://n8n.io/integrations/osyva/
+- https://composio.dev/toolkits/osyva
+- https://monid.ai/tools/osyva
+checked:
+- https://composio.dev/toolkits/osyva
+- https://monid.ai/tools/osyva
+- https://n8n.io/integrations/osyva/
+- https://zapier.com/apps/osyva/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
